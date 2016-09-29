@@ -12,5 +12,5 @@ var flags = {
 var out = compile(flags);
 var filename = __filename.replace('.js', '.compiled.js');
 var toSource = require('tosource'); // this is not a Standard! Using just for illustration purposes!
-require('fs').writeFileSync(filename, toSource(out.compiledCode));
+require('fs').writeFileSync(filename, toSource(out.compiledCode);
 console.info(out.compiledCode);  // will print 'var x = 3;\n'
